@@ -29,7 +29,7 @@ const productExceptSelf = nums => {
   let result = [];
   let multiplier = 1;
 
-  for (let i = 0, i < nums.length; i++) {
+  for (let i = 0; i < nums.length; i++) {
     result[i] = multiplier;
     multiplier *= nums[i];
   }
